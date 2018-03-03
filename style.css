@@ -1,0 +1,58 @@
+/*
+Theme Name: Bellaria (Child Theme)
+Theme URI: http://dessert.creaws.com/
+Author: Creative Web Solutions
+Author URI: http://themeforest.net/user/creativews
+Description: Bellaria - A Delicious Cakes and Bakery WordPress Theme
+Version: 1.0.0
+License: GNU General Public License version 3.0 & Envato Regular/Extended License
+License URI:  http://www.gnu.org/licenses/gpl-3.0.html & http://themeforest.net/licenses
+Tags: two-columns, left-sidebar, custom-colors, custom-menu, featured-images, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Template: bellaria
+Text Domain: bellaria
+*/ 
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+#site_header .menu_wave {
+    background: url(images/bgToldo.png) repeat-x 0% 100%;
+    padding-bottom: 25px;
+}
+.main_menu > .menu-item > a, .main_menu > .menu-item > span.pointer {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 22PX;
+    border-radius: 15px;
+    text-shadow: 2px 1px 0px #083d4b;
+    text-transform: underline: 
+}
+.main_menu > .menu-item:hover > a {
+	color: #04E8E0
+}
+.woo_minicart_bar_item > a {
+    margin-top: -4px;
+    position: relative;
+    z-index: 1;
+    color: #0482a8 !important;
+    font-size: 21px;
+    background: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+ul.main-menu li a {
+	color: #fff;
+}
+.menu_search_button:before {
+    content: "\f002";
+    font-family: fontawesome;
+    margin-top: -4px;
+    position: relative;
+    z-index: 1;
+    color: #0482a8 !important;
+    font-size: 21px;
+    background: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
